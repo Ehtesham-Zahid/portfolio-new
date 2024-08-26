@@ -48,11 +48,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Deployment & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Once the code is ready, I handle the deployment, ensuring a smooth, secure launch. I monitor the site to ensure everything runs flawlessly, bringing your vision to life!"
         >
           <CanvasRevealEffect
             animationSpeed={3}

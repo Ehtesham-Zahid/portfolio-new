@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building some amazing Websites",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +72,72 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Ironwear - Ecommerce Store",
+    des: "Experience unmatched durability and style with Ironwear’s rugged, premium apparel designed to elevate your everyday look.",
+    img: "/p21.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/cloudinary.svg",
+      "/mdb.svg",
+    ],
+    showLink: "ironwear.com",
+    link: "https://e-commerce-2-frontend.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Callup - Calling Solution Powered By AI",
+    des: "Unlock seamless communication with CALLUP's AI-powered calling solution, designed to streamline your conversations and boost productivity.",
+    img: "/p20.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/njs.svg", "/mdb.svg"],
+    showLink: "callup.ai",
+    link: "https://www.callup.ai",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "AI powered sales system - Landing Page",
+    des: "Revolutionize your sales process with Unorthodox's AI-powered system. Boost efficiency, drive conversions, and close deals faster with cutting-edge technology.",
+    img: "/p1222.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/vite.svg"],
+    showLink: "unorthodox.ai",
+    link: "https://sales-system-landing-page.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Security Company - Landing Page",
+    des: "Protect what matters most with our advanced security solutions. Ensure safety and peace of mind with our cutting-edge technology and expert protection services..",
+    img: "/p22.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/vite.svg"],
+    showLink: "security.com",
+    link: "https://security-company-website-frontend-2.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ehtesham is an exceptional talent with a wide range of unique skills. There is no challenge he cannot tackle, and he consistently completes his work ahead of deadlines. Ehtesham is not only efficient but also highly adaptable, always open to new ideas and eager to embrace innovative approaches. His creativity, dedication, and problem-solving abilities make him an invaluable asset to any team.",
+    name: "Gorang Madaan",
+    title: "C.E.O",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ehtesham is a proactive and dedicated professional who brings creativity and innovation to every project. His ability to understand client needs and translate them into effective solutions is truly impressive. Ehtesham is detail-oriented, communicates effectively, and consistently exceeds expectations with his high-quality work and timely delivery. He’s a pleasure to work with and a true asset to any team.",
+    name: "Malik Haseeb",
+    title: "C.E.O of AIOBC Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ehtesham has been a game-changer for our projects. He has a knack for turning complex problems into simple, effective solutions with his exceptional technical skills and innovative thinking. Ehtesham is highly organized, collaborative, and always ready to go the extra mile to ensure success. His commitment to excellence and ability to deliver results on time make him an outstanding professional.",
+    name: "Sophia Williams",
+    title: "Project Manager at InnovateX Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ehtesham’s work ethic and passion for excellence are unmatched. He is a quick learner who thrives on challenges and is always eager to improve his skills. Ehtesham’s attention to detail and commitment to delivering high-quality results have significantly contributed to the success of our projects. His positive attitude, flexibility, and readiness to tackle new challenges make him a valuable team player and a pleasure to work with.",
+    name: "Michael Anderson",
+    title: "CTO at FutureTech Ventures",
   },
 ];
 
@@ -180,38 +184,41 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Freelance Full Stack Web Developer",
+    desc: "Developed and maintained responsive websites and web applications using JavaScript, React, Node.js, Express, and MongoDB.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Freelance App Dev Project",
+  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Ehtesham-Zahid",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/ehtesham.codes/",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/ehtesham-zahid-ab8a71229/",
   },
 ];
