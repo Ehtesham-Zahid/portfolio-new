@@ -13,24 +13,23 @@ export const TextGenerateEffect = ({
   let wordsArray = words.split(" ");
 
   useEffect(() => {
+    // Set visible immediately on mount
     setIsVisible(true);
   }, []);
 
   const renderWords = () => {
     return (
-      <div>
+      <div
+        className="transition-opacity duration-500"
+        style={{ opacity: isVisible ? 1 : 0 }}
+      >
         {wordsArray.map((word, idx) => {
           return (
             <span
               key={word + idx}
               className={` ${
                 idx > 3 ? "text-purple" : "dark:text-white text-black"
-              } opacity-0`}
-              style={{
-                opacity: isVisible ? 1 : 0,
-                transition: "opacity 0.5s ease",
-                transitionDelay: `${idx * 100}ms`,
-              }}
+              }`}
             >
               {word}{" "}
             </span>
